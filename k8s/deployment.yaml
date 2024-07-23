@@ -20,6 +20,11 @@ spec :
           image : go-app
           ports :
              - containerPort : 8080
+          env :  
+            - name : SERVER_PORT
+              value : "8080"
+            - name : MONGO_URI
+              value : mongodb://mongo-app-service:27017
         -  name : mongo-app
            image : mongo:latest
            ports :
