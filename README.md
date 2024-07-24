@@ -1,6 +1,6 @@
 # Deploy Go App on Minikube
 
-This application is a simple survey where the go app run on `localhost:8080` and when you send a `POST` request as a `JSON` format it will be added automatically in the `MONGODB` database.
+- This application is a simple survey where the go app run on `localhost:8080` and when you send a `POST` request as a `JSON` format it will be added automatically in the `MONGODB` database.
 
 ## 1. Deploy application on `Minikube`:
 
